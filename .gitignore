@@ -6,6 +6,9 @@
 # dotenv files
 .env
 
+*/coveragereport
+*/coverlet.runsettings
+
 # User-specific files
 *.rsuser
 *.suo

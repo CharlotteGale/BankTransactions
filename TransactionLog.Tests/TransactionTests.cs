@@ -39,4 +39,12 @@ public class BankAccountTests
             Assert.That(record.Balance, Is.EqualTo(250));
         });
     }
+
+    [Test]
+    public void PrintStatement_ShouldExecuteLoop()
+    {
+        _bankAccount.Deposit(100);
+        
+        Assert.DoesNotThrow(() => _bankAccount.PrintStatement());
+}
 }
