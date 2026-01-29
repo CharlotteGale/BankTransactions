@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TransactionLog.Tests/TransactionLog.Tests.csproj" />
+  <Project Path="TransactionLog/TransactionLog.csproj" />
+</Solution>
